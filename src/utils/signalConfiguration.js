@@ -2,16 +2,16 @@ export const SIGNAL_CONFIGURATION = [
     {
         id: 0,
         signalColor: 'red',
-        delay: 2000,
+        delay: 1000,
     },
     {
         id: 1,
         signalColor: 'yellow',
-        delay: 2000,
+        delay: 3000,
     },
     {
         id: 2,
         signalColor: 'green',
-        delay: 2000,
+        delay: 5000,
     },
 ];

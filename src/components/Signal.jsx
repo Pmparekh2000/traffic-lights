@@ -1,10 +1,8 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
-const Signal = ({light={}}) => {
-    console.log(light);
-    
+const Signal = ({light={}, isActive=false}) => {
   return (
-    <div className='signal' style={{backgroundColor: light?.signalColor}}></div>
+    <div className='signal' style={{backgroundColor: isActive ? light?.signalColor : 'lightgray'}}></div>
   )
 }
 
